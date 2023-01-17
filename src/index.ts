@@ -203,7 +203,11 @@ export class PWAInstallElement extends LitElement {
 	};
 
 	connectedCallback() {
-		changeLocale(navigator.language);
+		let locale = 'en';
+		if(localStorage.getItem('currentLang') != null) {
+			locale = `${localStorage.getItem('currentLang')}`;
+		}
+		changeLocale(locale);
 		this._init();
 		PWAGalleryElement.finalized;
 		PWABottomSheetElement.finalized;

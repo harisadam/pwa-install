@@ -5,7 +5,8 @@
     "ru",
     "tr",
     "de",
-    "es"
+    "es",
+    "hu"
   ],
   "tsConfig": "tsconfig.json",
   "output": {
