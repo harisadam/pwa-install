@@ -170,7 +170,7 @@
                 "text": "boolean"
               },
               "privacy": "private",
-              "default": "false"
+              "default": "true"
             },
             {
               "kind": "field",

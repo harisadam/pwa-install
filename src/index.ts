@@ -48,7 +48,7 @@ export class PWAInstallElement extends LitElement {
 	public isUnderStandaloneMode = false;
 	public isRelatedAppsInstalled = false;
 
-	private _howToRequested = false;
+	private _howToRequested = true;
 	private _galleryRequested = false;
 
 	private _install = {

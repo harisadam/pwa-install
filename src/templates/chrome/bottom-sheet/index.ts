@@ -40,7 +40,7 @@ export default class PWABottomSheetElement extends LitElement {
 
 		let dragOffset = 0;
 		const bounceOffset = 35;
-		const bottomSize = touchTargetElement.clientHeight + infoElement.clientHeight;
+		const bottomSize = 600;//touchTargetElement.clientHeight + infoElement.clientHeight;
 
 		const getYCoord = (e: MouseEvent | TouchEvent): number => {
 			return (e as MouseEvent).clientY || ((e as TouchEvent).changedTouches && (e as TouchEvent).changedTouches.length? (e as TouchEvent).changedTouches[0].clientY : 0);

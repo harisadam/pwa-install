@@ -447,8 +447,8 @@ $phone-small-landscape: 667px;
                 padding-bottom: max(15px, env(safe-area-inset-bottom))
             }
             &.available {
-                bottom: 0px;
-                max-height: 85vh;
+                top: 0;
+                max-height: 450px;
             }
 
                 border-bottom-left-radius: 0;
